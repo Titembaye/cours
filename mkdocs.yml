@@ -1,0 +1,87 @@
+site_name: Cours Data Mining & Text Mining
+site_url: https://TITEMBAYE.github.io/cours
+site_author: DJIRAIKINAN TITEMBAYE
+site_description: Supports de cours, TPs et corrections — Data Mining & Text Mining
+
+theme:
+  name: material
+  language: fr
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Passer en mode sombre
+    - scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Passer en mode clair
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      execute: false
+      include_source: true
+      allow_errors: true
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+
+nav:
+  - Accueil: index.md
+
+  - Data Mining:
+      - Vue d'ensemble: data-mining/index.md
+
+      - Régression Linéaire:
+          - Aperçu: data-mining/regression/index.md
+          - TP 1 — Voitures: data-mining/regression/TP1_Regression_Car.ipynb
+          - TP 2 — Voitures (suite): data-mining/regression/TP2_Regression_Car.ipynb
+          - TP 3 — Gaming (CRISP-DM): data-mining/regression/TP3_Regression_Gaming_CRISPDM.ipynb
+
+      - Arbres de Décision:
+          - Aperçu: data-mining/arbres-decision/index.md
+          - TP: data-mining/arbres-decision/TP_Arbre_Decision.ipynb
+          - Correction: data-mining/arbres-decision/TP_Arbre_Decision_Cor.ipynb
+
+      - Règles d'Association:
+          - Aperçu: data-mining/regles-association/index.md
+          - TP: data-mining/regles-association/Regle-association.ipynb
+
+  - Text Mining:
+      - Vue d'ensemble: text-mining/index.md
+
+      - Prétraitement:
+          - Aperçu: text-mining/preprocessing/index.md
+          - TP: text-mining/preprocessing/TP_Text_Mining.ipynb
+
+      - Topic Modeling (LDA):
+          - Aperçu: text-mining/lda/index.md
+          - TP: text-mining/lda/TopicModeling_LDA.ipynb
+
+      - Classification de textes:
+          - Aperçu: text-mining/classification/index.md
+          - TP Banking77: text-mining/classification/TP_Classification_Banking77.ipynb
+
+      - Analyse de Sentiments:
+          - Aperçu: text-mining/sentiment/index.md

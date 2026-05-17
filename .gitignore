@@ -1,0 +1,27 @@
+# MkDocs build
+site/
+
+# Fichiers professeur (corrections, datasets de préparation)
+professor/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Fichiers temporaires
+tmp_*.txt
+test.py
+
+# Anciens fichiers avant restructuration (racine)
+TP_Text_Mining_miseajour.ipynb
+Text Mining/
+Data Mining/
