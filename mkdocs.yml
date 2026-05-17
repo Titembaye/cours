@@ -46,6 +46,8 @@ markdown_extensions:
       alternate_style: true
   - attr_list
   - md_in_html
+  - toc:
+      toc_depth: 4
 
 nav:
   - Accueil: index.md
