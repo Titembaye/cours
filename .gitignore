@@ -21,7 +21,20 @@ Thumbs.db
 tmp_*.txt
 test.py
 
-# Anciens fichiers avant restructuration (racine)
+# Fichiers en racine — doublons de docs/ (source de vérité = docs/)
+TP_Text_Mining.ipynb
 TP_Text_Mining_miseajour.ipynb
+TP_Classification_Banking77.ipynb
+TP_Arbre_Decision.ipynb
+TP_Arbre_Decision_Cor.ipynb
+Regle-association.ipynb
+Cours_Arbre_Decision.pdf
+prepare_dataset.ipynb
+test.py
+
+# Slides LaTeX — pas encore dans docs/
+Text-mining.tex
+
+# Dossiers téléchargés (source d'import, non versionné)
 Text Mining/
 Data Mining/
