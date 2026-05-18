@@ -17,6 +17,6 @@ Texte brut → Nettoyage → Tokenisation → Stopwords → Lemmatisation
 | Chapitre | Description |
 |---|---|
 | [Prétraitement](preprocessing/index.md) | Nettoyage regex, tokenisation NLTK/SpaCy, stopwords, stemming, lemmatisation |
-| [Topic Modeling (LDA)](lda/index.md) | Découverte automatique de thèmes (non supervisé) |
+| [Topic Modeling](lda/index.md) | Découverte automatique de thèmes (non supervisé) |
 | [Classification](classification/index.md) | BoW, TF-IDF, Naïf de Bayes, SVM — dataset Banking77 |
 | [Analyse de Sentiments](sentiment/index.md) | Allocine — avis positifs/négatifs |

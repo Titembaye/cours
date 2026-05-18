@@ -17,4 +17,4 @@ Le dataset a été pré-bruité pour simuler des données réelles du web.
 
 ## TP
 
-- [TP Prétraitement](TP_Text_Mining.ipynb)
+- [Prétraitement de données textuelles](TP_Text_Mining.ipynb)
